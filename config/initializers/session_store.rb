@@ -1,0 +1,1 @@
+Rails.application.config.session_store :cookie_store, key: '_project_backend', domain: 'https://user-control-pro-6d69dacacf7c.herokuapp.com'
