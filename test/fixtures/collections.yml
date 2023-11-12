@@ -1,0 +1,69 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image_url: MyString
+  custom_str1: MyString
+  custom_str1_name: MyString
+  custom_str2: MyString
+  custom_str2_name: MyString
+  custom_str3: MyString
+  custom_str3_name: MyString
+  custom_int1: 1
+  custom_int1_name: MyString
+  custom_int2: 1
+  custom_int2_name: MyString
+  custom_int3: 1
+  custom_int3_name: MyString
+  custom_bool1: false
+  custom_bool1_name: MyString
+  custom_bool2: false
+  custom_bool2_name: MyString
+  custom_bool3: false
+  custom_bool3_name: MyString
+  custom_text1: MyText
+  custom_text1_name: MyString
+  custom_text2: MyText
+  custom_text2_name: MyString
+  custom_text3: MyText
+  custom_text3_name: MyString
+  custom_date1: 2023-11-10 23:22:50
+  custom_date1_name: MyString
+  custom_date2: 2023-11-10 23:22:50
+  custom_date2_name: MyString
+  custom_date3: 2023-11-10 23:22:50
+  custom_date3_name: MyString
+
+two:
+  name: MyString
+  image_url: MyString
+  custom_str1: MyString
+  custom_str1_name: MyString
+  custom_str2: MyString
+  custom_str2_name: MyString
+  custom_str3: MyString
+  custom_str3_name: MyString
+  custom_int1: 1
+  custom_int1_name: MyString
+  custom_int2: 1
+  custom_int2_name: MyString
+  custom_int3: 1
+  custom_int3_name: MyString
+  custom_bool1: false
+  custom_bool1_name: MyString
+  custom_bool2: false
+  custom_bool2_name: MyString
+  custom_bool3: false
+  custom_bool3_name: MyString
+  custom_text1: MyText
+  custom_text1_name: MyString
+  custom_text2: MyText
+  custom_text2_name: MyString
+  custom_text3: MyText
+  custom_text3_name: MyString
+  custom_date1: 2023-11-10 23:22:50
+  custom_date1_name: MyString
+  custom_date2: 2023-11-10 23:22:50
+  custom_date2_name: MyString
+  custom_date3: 2023-11-10 23:22:50
+  custom_date3_name: MyString
