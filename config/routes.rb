@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get :logged_in, to: 'sessions#logged_in'
   resources :collections, only: [:index, :show, :create, :update, :destroy]
   resources :items, only: [:index, :show, :create, :update, :destroy]
+  resources :users, only: [:index, :show, :create, :update, :destroy]
+  resources :comments, only: [:index, :show, :create, :update, :destroy]
 end
