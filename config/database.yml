@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: project_backend_production
-  username: project_backend
-  password: <%= ENV["PROJECT_BACKEND_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
