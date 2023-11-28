@@ -15,6 +15,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_11_22_054312) do
   enable_extension "plpgsql"
 
   create_table "collections", force: :cascade do |t|
+    t.bigint "user_id", null: false
     t.string "name"
     t.string "image_url", default: "https://www.logolynx.com/images/logolynx/d1/d1d94d61ed2befb68cd969fef19c868f.jpeg"
     t.string "custom_str1"
@@ -34,7 +35,6 @@ ActiveRecord::Schema[7.1].define(version: 2023_11_22_054312) do
     t.string "custom_date3"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "user_id", null: false
     t.index ["user_id"], name: "index_collections_on_user_id"
   end
 
@@ -49,6 +49,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_11_22_054312) do
   end
 
   create_table "items", force: :cascade do |t|
+    t.bigint "collection_id", null: false
     t.string "name"
     t.string "custom_str1"
     t.string "custom_str2"
@@ -67,7 +68,6 @@ ActiveRecord::Schema[7.1].define(version: 2023_11_22_054312) do
     t.datetime "custom_date3"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "collection_id", null: false
     t.index ["collection_id"], name: "index_items_on_collection_id"
   end
 
